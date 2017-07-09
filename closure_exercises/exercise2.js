@@ -6,6 +6,11 @@ var movie = "The Matrix";
 
 // YOUR CODE HERE ------------------------
 
+function tellFavouriteMovie() {
+  var movie = "The Matrix";
+  console.log(movie);
+}
+
 
 
 // ---------------------------------------

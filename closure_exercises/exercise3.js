@@ -7,6 +7,13 @@ var sandwiches = 2,
 var theUsual = getUsualOrderFunction(2, 3);
 // YOUR CODE HERE ------------------------
 
+function theUsual() {
+  return getUsualOrderFunction(2, 3);
+}
+
+function getUsualOrderFunction(sandwiches, burger) {
+  console.log("We'll get " +sandwiches+ " sandwiches and " +burger+ " burgers.")
+}
 
 
 // ---------------------------------------

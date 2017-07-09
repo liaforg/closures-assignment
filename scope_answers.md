@@ -7,3 +7,12 @@ EXERCISE 1:
 6) ->
 7) -> firstIdea has no output to screen which is why it comes back undefined
    -> secondIdea does not have access to the local variable in the firstIdea function
+
+EXERCISE TWO:
+1) -> error because address is not defined outside of the function
+   -> must put address = buildHouse('123 Happy St.')
+2) -> smoother is not defined outside of the function
+   -> have to define smoothie outside of the function for it to print regardless
+3) -> will return the value of 5
+   -> put the loop inside of a function so that console.log cant access index
+4)

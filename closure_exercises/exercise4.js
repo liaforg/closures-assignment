@@ -7,6 +7,15 @@ var recipient = "Devon";
 var sendNote = getSendNoteFunction(recipient);
 // YOUR CODE HERE ------------------------
 
+function sendNote(note) {
+  getSendNoteFunction();
+  console.log(note);
+}
+
+function getSendNoteFunction() {
+  var recipient = "Devon";
+  console.log("Dear " +recipient+ ",");
+}
 
 
 

@@ -1,13 +1,6 @@
-var decision;
+var items = ['glasses', 'toothpaste', 'wallet'];
+items.for(function(item) {
+  var lastItem = item;
+});
 
-function firstIdea() {
-  var decision = 'Buy a new car';
-  return decision;
-}
-
-function secondIdea() {
-  console.log(decision);
-}
-
-firstIdea();
-secondIdea();
+console.log(lastItem);

@@ -5,6 +5,12 @@ var printNumberFive = getPrintNumberFunction(5);
 
 // YOUR CODE HERE ------------------------
 
+function getPrintNumberFunction(number) {
+  return function() {
+    console.log(number);
+  }
+}
+
 
 
 // ---------------------------------------

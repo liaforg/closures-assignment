@@ -10,7 +10,6 @@ clickCounter.addEventListener('click', getClickCountHandler());
 // Problem 1: fill in this function
 function getClickCountHandler() {
 
-}
 
 
 
